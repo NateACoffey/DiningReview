@@ -47,5 +47,9 @@ public class DiningReview {
 	@Column(name = "COMMENTARY")
 	private String commentary;
 	
+	@Getter @Setter
+	@Column(name = "STATUS")
+	private String status;
+	
 	
 }
