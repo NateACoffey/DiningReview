@@ -7,5 +7,7 @@ import io.github.nateacoffey.DiningReview.Entities.DiningReview;
 
 
 public interface DiningReviewRepository extends CrudRepository<DiningReview, Long> {
-
+	
+	Iterable<DiningReview> findAllByStatus(String status);
+	
 }
