@@ -20,6 +20,14 @@ public class Restaurant {
 	private Long id;
 	
 	@Getter @Setter
+	@Column(name = "NAME")
+	private String name;
+	
+	@Getter @Setter
+	@Column(name = "ZIP_CODE")
+	private Integer zipCode;
+	
+	@Getter @Setter
 	@Column(name = "OVERALL_SCORE")
 	private Integer overallScore;
 	
